@@ -1,0 +1,139 @@
+.experience {
+    background-color: #0e0e0e;
+    color: #eee;
+    padding: 4rem 2rem;
+  
+    .experience-item {
+      background: #161616;
+      border-left: 4px solid #fcd34d;
+      padding: 1.5rem 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  
+      h3 {
+        color: #fcd34d;
+        margin-bottom: 0.5rem;
+      }
+  
+      .company {
+        font-weight: 600;
+        color: #bbb;
+      }
+  
+      .dates {
+        font-style: italic;
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 1rem;
+      }
+  
+      ul {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 1rem;
+      
+        li {
+          position: relative;
+          padding-left: 1.5rem;
+          margin-bottom: 0.75rem;
+          line-height: 1.6;
+          color: #ddd;
+      
+          &::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #fcd34d;
+            font-size: 1.1rem;
+            line-height: 1;
+          }
+        }
+      }
+      
+    }
+  }
+  
+
+  .section {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #fcd34d;
+    margin-bottom: 3rem;
+    position: relative;
+  
+    &::after {
+      content: '';
+      width: 50px;
+      height: 3px;
+      background: #f87171;
+      display: block;
+      margin: 1rem auto 0;
+      border-radius: 10px;
+    }
+  }
+  
+  .experience-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .experience-card {
+    background: #181818;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    text-align: left;
+  
+    h3 {
+      color: #f87171;
+      margin-bottom: 0.5rem;
+    }
+  
+    .company {
+      font-weight: 500;
+      color: #ccc;
+  
+      span {
+        display: block;
+        font-size: 0.875rem;
+        color: #999;
+      }
+    }
+  
+    ul {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 1rem;
+      
+        li {
+          position: relative;
+          padding-left: 1.5rem;
+          margin-bottom: 0.75rem;
+          line-height: 1.6;
+          color: #ddd;
+      
+          &::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #fcd34d;
+            font-size: 1.1rem;
+            line-height: 1;
+          }
+        }
+      }
+      
+  }
+  
