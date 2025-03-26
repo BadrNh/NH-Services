@@ -300,6 +300,12 @@
     transform: translateY(0);
   }
 }
+.animate-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideUp 1s ease-out 0.5s forwards;
+}
+
 @media (max-width: 768px) {
   .brand-wrapper {
     flex-direction: column;
