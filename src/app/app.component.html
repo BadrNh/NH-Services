@@ -10,3 +10,19 @@
 <button class="floating-cta" (click)="scrollToCompanyContact()">
   🤝 Let's Work Together
 </button>
+
+<div
+  class="cookie-banner"
+  *ngIf="!acceptedCookies"
+  @fadeOut
+>
+  <p>
+    We use cookies to enhance your browsing experience.
+    <a routerLink="/privacy-policy">Privacy Policy</a>
+  </p>
+  <div class="cookie-actions">
+    <button (click)="acceptCookies()">Accept</button>
+    <button class="secondary" (click)="declineCookies()">Continue without accepting</button>
+  </div>
+</div>
+

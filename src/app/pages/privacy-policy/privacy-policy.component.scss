@@ -1,0 +1,57 @@
+:host {
+    display: block;
+    padding: 2rem;
+    color: #eee;
+    background-color: #0e0e0e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .privacy-policy {
+    max-width: 900px;
+    margin: 0 auto;
+  
+    h1 {
+      font-size: 2.2rem;
+      color: #f5c518;
+      margin-bottom: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      color: #ff8c00;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      line-height: 1.8;
+      margin-bottom: 1rem;
+      color: #ccc;
+    }
+  
+    ul {
+      list-style: disc;
+      margin-left: 2rem;
+  
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+  
+    a {
+      color: #ffa500;
+      text-decoration: underline;
+  
+      &:hover {
+        color: #ffcc70;
+      }
+    }
+  
+    .last-updated {
+      font-size: 0.9rem;
+      margin-top: 2rem;
+      color: #777;
+      text-align: right;
+    }
+  }
+  
